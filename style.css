@@ -1,3 +1,21 @@
-h1 {
-	color: red;
+
+body {
+	font-family: "MS Mincho";
+}
+
+header {
+	background-color: aqua;
+	height: 120px;
+	width: 100%;
+	margin-top: -21px;
+}
+
+.head-container {
+	width: 70em;
+	margin: auto;
+}
+
+.head-container h1 {
+	margin: 0px;
+	text-align: center;
 }
