@@ -1,13 +1,9 @@
 
-body {
-	font-family: "MS Mincho";
-}
 
 header {
-	background-color: aqua;
-	height: 120px;
+	height: 230px;
 	width: 100%;
-	margin-top: -21px;
+	font-family: "MS Mincho";
 }
 
 .head-container {
@@ -15,7 +11,48 @@ header {
 	margin: auto;
 }
 
-.head-container h1 {
-	margin: 0px;
+.head-main-frame {
+	border: 4px solid;
+	border-color: #D1151B;
+	width: 150px;
+	height: 150px;
 	text-align: center;
+	margin: auto;
 }
+
+.head-main-frame a {
+	color: #D1151B;
+	font-size: 60px;
+	line-height: 70px;
+}
+
+.header-list li {
+	float: left;
+	width: 18%;
+	list-style: none;
+	padding: 20px 20px;
+	text-align: center;
+	border-top: 1px solid;
+	margin: 0px 2px;
+	border-color: #D1151B;
+	cursor: pointer;
+}
+
+.header-list a {
+	color: #720D11;
+	text-decoration: none;
+}
+
+.list-item:hover {
+	color: grey;
+}
+
+.header-list li:hover{
+	border-top: 3px solid;
+	border-color: #D1151B;
+}
+
+
+
+
+
