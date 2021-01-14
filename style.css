@@ -1,13 +1,12 @@
 
-
 header {
-	height: 230px;
+	height: 160px;
 	width: 100%;
 	font-family: "MS Mincho";
 }
 
 .head-container {
-	width: 90em;
+	width: 80em;
 	margin: auto;
 }
 
@@ -26,33 +25,48 @@ header {
 	line-height: 70px;
 }
 
-.header-list li {
+.main-frame {
+	width: 80em;
+	margin: auto;
+	height: 1200px;
+}
+
+
+.main-list ul {
+  padding:0;
+  list-style:none;
+}
+
+.list-item {
 	float: left;
-	width: 18%;
-	list-style: none;
+	width: 20%;
 	padding: 20px 20px;
 	text-align: center;
 	border-top: 1px solid;
-	margin: 0px 2px;
 	border-color: #D1151B;
 	cursor: pointer;
 }
 
-.header-list a {
+.list-item {
 	color: #720D11;
 	text-decoration: none;
 }
 
 .list-item:hover {
 	color: grey;
-}
-
-.header-list li:hover{
-	border-top: 3px solid;
+	border-top: 2px solid;
 	border-color: #D1151B;
 }
 
+.main-img {
+	width: 100%;
+	height: 500px;
+}
 
 
-
-
+.footer-frame {
+	width: 80em;
+	margin: auto;
+	height: 120px;
+	background-color: #D1151B;
+}
