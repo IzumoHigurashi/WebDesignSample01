@@ -6,7 +6,7 @@ header {
 }
 
 .head-container {
-	width: 80em;
+	width: 1100px;
 	margin: auto;
 }
 
@@ -26,11 +26,14 @@ header {
 }
 
 .main-frame {
-	width: 80em;
+	width: 1100px;
 	margin: auto;
-	height: 1200px;
+	height: 1300px;
 }
 
+.main-list {
+	clear: both;
+}
 
 .main-list ul {
   padding:0;
@@ -63,10 +66,78 @@ header {
 	height: 500px;
 }
 
+.main-contents-frame {
+	margin: 10px;
+}
+
+.main-left {
+	float: left;
+	margin: 10px 10px;
+	width: 500px;
+}
+
+.out {
+	clear: left;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.season-frame {
+	color: #D1151B;
+	border: 3px solid;
+	border-color: #D1151B;
+	width: 70px;
+	height: 100px;
+	text-align: center;
+	font-family: "MS Mincho";
+	float: left;
+}
+.season-mark {
+	font-size: 35px;
+	display: block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.season-text-frame {
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 400px;
+}
+
+.main-left-img {
+	clear: left;
+	float: left;
+	width: 500px;
+	height: 220px;
+}
+
+
 
 .footer-frame {
-	width: 80em;
+	width: 1100px;
 	margin: auto;
 	height: 120px;
 	background-color: #D1151B;
+}
+
+.main-right {
+	float: right;
+	margin: 10px 10px;
+	width: 500px;
+}
+
+.main-right-img {
+	float: left;
+	width: 300px;
+	height: 200px;
+}
+
+.side-text-frame {
+	float: left;
+	width: 180px;
+	margin-left: 10px;
 }
