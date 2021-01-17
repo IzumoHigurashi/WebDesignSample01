@@ -28,7 +28,7 @@ header {
 .main-frame {
 	width: 1100px;
 	margin: auto;
-	height: 1300px;
+	height: 1450px;
 }
 
 .main-list {
@@ -109,19 +109,11 @@ header {
 }
 
 .main-left-img {
+	margin-top: 80px;
 	clear: left;
 	float: left;
 	width: 500px;
-	height: 220px;
-}
-
-
-
-.footer-frame {
-	width: 1100px;
-	margin: auto;
-	height: 120px;
-	background-color: #D1151B;
+	height: 250px;
 }
 
 .main-right {
@@ -141,3 +133,56 @@ header {
 	width: 180px;
 	margin-left: 10px;
 }
+
+.side-img-flame {
+	float: left;
+	margin-right: 15px;
+}
+
+.side-img-1 {
+	margin-top: 70px;
+}
+
+.side-img-2 {
+	margin-top: 160px;
+}
+
+.side-img-3 {
+	margin-top: 120px;
+}
+
+.side-img {
+	width: 150px;
+	height: 400px;
+	object-fit: cover;
+}
+
+footer {
+	height: 100px;
+	background-color: #D1151B;
+	width: 1100px;
+	margin: auto;
+}
+
+.footer-left {
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	color: white;
+}
+
+.footer-right {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+
+.icon-face {
+	color: #3B5998;
+}
+
+.icon-twite {
+	color: #1DA1F2;
+}
+
