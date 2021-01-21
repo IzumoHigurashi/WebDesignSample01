@@ -93,6 +93,10 @@ header {
 	color: red;
 }
 
+.img-effect {
+	cursor: pointer;
+}
+
 .img-effect:hover {
 	opacity: 0.6;
 	transition-duration: 0.5s;
@@ -140,12 +144,28 @@ header {
 	width: 400px;
 }
 
+.contents-img-frame {
+	position: relative;
+	writing-mode: vertical-lr;
+}
+
 .main-left-img {
 	margin-top: 80px;
 	clear: left;
 	float: left;
 	width: 500px;
 	height: 250px;
+}
+
+.contents-img-text {
+	position: absolute;
+	top: 28%;
+	right: 5%;
+	color: white;
+	font-size: 40px;
+	font-family: "MS Mincho";
+	font-weight: bold;
+	text-shadow: 0 0 10px white;
 }
 
 .main-right {
@@ -169,24 +189,54 @@ header {
 .side-img-flame {
 	float: left;
 	margin-right: 15px;
-}
-
-.side-img-1 {
-	margin-top: 70px;
-}
-
-.side-img-2 {
-	margin-top: 160px;
-}
-
-.side-img-3 {
-	margin-top: 120px;
+	position: relative;
+	writing-mode: vertical-lr;
 }
 
 .side-img {
 	width: 150px;
 	height: 400px;
 	object-fit: cover;
+}
+
+.side-img-font {
+	color: white;
+	font-family: "MS Mincho";
+	font-weight: bold;
+	text-shadow: 0 0 10px white;
+	font-size: 40px;
+
+}
+
+.side-img-1 {
+	margin-top: 70px;
+}
+
+.side-img-text1 {
+	position: absolute;
+	top: 60%;
+	right: 10%;
+}
+
+
+.side-img-2 {
+	margin-top: 160px;
+}
+
+.side-img-text2 {
+	position: absolute;
+	top: 10%;
+	left: 0%;
+}
+
+.side-img-3 {
+	margin-top: 120px;
+}
+
+.side-img-text3 {
+	position: absolute;
+	top: 10%;
+	left: 30%;
 }
 
 footer {
