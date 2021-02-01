@@ -1,12 +1,17 @@
 
+* {
+	box-sizing: border-box;
+}
+
 header {
 	height: 160px;
 	width: 100%;
 	font-family: "MS Mincho";
+	margin-top: 20px;
 }
 
 .head-container {
-	width: 1100px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -110,7 +115,7 @@ header {
 .main-left {
 	float: left;
 	margin: 10px 10px;
-	width: 500px;
+	width: 45%;
 }
 
 .out {
@@ -154,7 +159,7 @@ header {
 	margin-top: 80px;
 	clear: left;
 	float: left;
-	width: 500px;
+	width: 400px;
 	height: 250px;
 }
 
@@ -172,20 +177,21 @@ header {
 .main-right {
 	float: right;
 	margin: 10px 10px;
-	width: 500px;
+	width: 45%;
 }
 
 .main-right-img {
 	float: left;
-	width: 300px;
+	width: 60%;
 	height: 200px;
 }
 
 .side-text-frame {
 	float: left;
-	width: 180px;
+	width: 35%;
 	margin-left: 10px;
 }
+
 
 .side-img-flame {
 	float: left;
@@ -195,7 +201,7 @@ header {
 }
 
 .side-img {
-	width: 150px;
+	width: 145px;
 	height: 400px;
 	object-fit: cover;
 }
