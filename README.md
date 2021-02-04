@@ -6,6 +6,6 @@
 
 HTML / CSS / JavaScript
 
-## ライブラリ
+## 使用技術 ・ライブラリ ・フレームワーク
 
 jquery
