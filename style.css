@@ -156,10 +156,10 @@ header {
 }
 
 .main-left-img {
-	margin-top: 80px;
+	margin-top: 60px;
 	clear: left;
 	float: left;
-	width: 400px;
+	width: 500px;
 	height: 250px;
 }
 
@@ -191,7 +191,6 @@ header {
 	width: 35%;
 	margin-left: 10px;
 }
-
 
 .side-img-flame {
 	float: left;

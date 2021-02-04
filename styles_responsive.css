@@ -21,7 +21,7 @@
 
   .maim-img-text {
     position: absolute;
-    top: 30%;
+    top: 40%;
     right: 20px;
     bottom: 20px;
     width: 35%;
@@ -30,11 +30,10 @@
     border-color: white;
     font-family: "MS Mincho";
     color: white;
-    font-size: 55px;
+    font-size: 47px;
     line-height: 100%;
     letter-spacing: 5px;
   }
-
   .main-frame {
     width: 100%;
   }
@@ -43,9 +42,44 @@
     width: 100%;
   }
 
+  .main-left-img {
+    margin-top: 5px;
+    clear: both;
+    width: 500px;
+    height: 200px;
+  }
+
+  .contents-img-text {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    color: white;
+    font-size: 30px;
+    font-family: "MS Mincho";
+    font-weight: bold;
+    text-shadow: 0 0 10px white;
+  }
+
   .main-right {
     width: 100%;
   }
+
+  .side-img-flame {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    writing-mode: vertical-lr;
+    margin-top: 0px;
+    margin: auto;
+  }
+
+
+  .side-img {
+    width: 171px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
 
 
   footer {
